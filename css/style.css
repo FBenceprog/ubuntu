@@ -1,0 +1,95 @@
+
+* {
+	box-sizing: border-box
+}
+
+body {
+	color: #4f4f4f;
+	background-color: #f9f9f9;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+#keret {
+	max-width: 1125px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e0e0e0;
+	margin: 0 auto 0 auto;
+	background-color: white;
+}
+
+#fejlec {
+	max-width: 1125px;
+	height: 300px;
+	margin: 0;
+	background: url('../kepek/omg.png');
+}
+
+#torzs {
+	max-width: 1125px;
+	height: auto;
+	margin: 0;
+}
+
+#cikk {
+	max-width: 720px;
+	float: left;
+	padding: 20px;
+	margin: 0;
+	background-color: white;
+}
+
+#kommentek {
+	width: 300px;
+	height: 1300px;
+	margin: 0;
+	padding: 20px;
+	background-color: #efefef;
+	float: right
+	
+}
+
+.komment {
+	max-width: 280px;
+	padding: 5px;
+	margin: 10px auto;
+	background-color: white;
+}
+
+#lablec {
+	clear: both;
+    color: #808080;
+    width: 1125px;
+    margin: 0;
+    padding: 20px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+h1 {
+	color: #333333;
+	font-size: 32px;
+}
+
+h2 {
+	color: #f15d22;
+	font-size: 24px;
+}
+
+img {
+	display: block;
+	max-width: 500px;
+	height: auto;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #f15d22;
+	
+}
+
+a:hover {
+	color: #a0a0a0;
+}
